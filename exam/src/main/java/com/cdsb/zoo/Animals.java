@@ -9,8 +9,8 @@ public class Animals extends Zoo{
     String habitat; 
     int space;
 
-    public Animals(String name, String species, String food, String type, boolean survive, int space) {
-        this.names = name;
+    public Animals(String names, String species, String food, String type, boolean survive, int space) {
+        this.names = names;
         this.species = species;
         this.food = food;
         this.type=type;
