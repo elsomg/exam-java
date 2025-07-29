@@ -29,6 +29,7 @@ public static String animals;
         System.out.println(terrarium.addAnimal(parrots));
         System.out.println(terrarium.addAnimal(toucans));
          System.out.println(terrestrial.addAnimal(snakes));
+         System.out.println(terrestrial.addAnimal(iguanas));
         System.out.println(terrestrial.addAnimal(dolphins));
         System.out.println(aquatic.addAnimal(dolphins));
      
