@@ -1,6 +1,6 @@
 package com.cdsb.zoo;
 
-public class birds extends Zoo{
+public class Birds extends Zoo{
 String parrots;
 String toucans;
 }

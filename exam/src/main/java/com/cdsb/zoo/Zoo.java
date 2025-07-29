@@ -20,7 +20,7 @@ public static String animals;
         Animals parrots=new Animals("Loros", "Aves", "Herbivoros", true, "Voladores", 8);
     Animals toucans=new Animals("Tucanes", "Aves", "Herbivoros", true, "Voladores", 8);
         Animals snakes=new Animals("Serpientes", "Reptiles", "Herbivoros", false, "Terrestres", 8);
-         Animals iguanas=new Animals("Loros", "Aves", "Herbivoros", false, "Terrestres", 8);
+         Animals iguanas=new Animals("Iguanas", "Reptiles", "Herbivoros", false, "Terrestres", 8);
          Animals dolphins=new Animals("Delfines", "Mamiferos", "Carnivoros", false, "Acuaticos", 7);
         
          System.out.println(terrestrial.addAnimal(lions));

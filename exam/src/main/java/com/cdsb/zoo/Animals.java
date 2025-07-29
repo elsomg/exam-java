@@ -19,7 +19,6 @@ public class Animals extends Zoo{
     }
 
     public Animals(String string, String string2, String string3, boolean b, String animals, int i) {
-        //TODO Auto-generated constructor stub
     }
 
     public boolean Compatibility(Animals other) {
@@ -29,7 +28,6 @@ public class Animals extends Zoo{
     }
 
     public static int length() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'length'");
     }
 }
