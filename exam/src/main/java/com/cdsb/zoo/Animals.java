@@ -1,7 +1,7 @@
 package com.cdsb.zoo;
 
 public class Animals extends Zoo{
-   String name;
+   String names;
     String species;
     String type;         
     String food;      
@@ -10,7 +10,7 @@ public class Animals extends Zoo{
     int space;
 
     public Animals(String name, String species, String food, String type, boolean survive, int space) {
-        this.name = name;
+        this.names = name;
         this.species = species;
         this.food = food;
         this.type=type;

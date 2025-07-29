@@ -30,7 +30,7 @@ public class Habitat extends Zoo{
     public void showAnimals() {
         System.out.println("Habitat (" + type + "):");
         for (Animals a : animales) {
-            System.out.println(" " + a.name + " " + a.species);
+            System.out.println(" " + a.names + " " + a.species);
         }
     }
 }
