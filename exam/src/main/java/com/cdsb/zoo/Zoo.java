@@ -22,7 +22,8 @@ public static String animals;
         Animals snakes=new Animals("Serpientes", "Reptiles", "Herbivoros", false, "Terrestres", 8);
          Animals iguanas=new Animals("Iguanas", "Reptiles", "Herbivoros", false, "Terrestres", 8);
          Animals dolphins=new Animals("Delfines", "Mamiferos", "Carnivoros", false, "Acuaticos", 7);
-        
+        Animals seals=new Animals("Delfines", "Mamiferos", "Carnivoros", false, "Acuaticos", 7);
+
          System.out.println(terrestrial.addAnimal(lions));
          System.out.println(terrestrial.addAnimal(elephants));
         System.out.println(terrestrial.addAnimal(zebras));
@@ -31,7 +32,7 @@ public static String animals;
          System.out.println(terrestrial.addAnimal(snakes));
          System.out.println(terrestrial.addAnimal(iguanas));
         System.out.println(terrestrial.addAnimal(dolphins));
-        System.out.println(aquatic.addAnimal(dolphins));
+        System.out.println(aquatic.addAnimal(seals));
      
 
         
