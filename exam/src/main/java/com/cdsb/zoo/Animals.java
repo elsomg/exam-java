@@ -18,8 +18,6 @@ public class Animals extends Zoo{
         this.space = space;
     }
 
-    public Animals(String string, String string2, String string3, boolean b, String animals, int i) {
-    }
 
     public boolean Compatibility(Animals other) {
         return this.survive && other.survive &&

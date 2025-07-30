@@ -1,7 +1,7 @@
 package com.cdsb.zoo;
 
 
-public abstract class Reptiles extends Zoo {
+public class Reptiles extends Zoo {
 String snakes;
 String iguanas;
 

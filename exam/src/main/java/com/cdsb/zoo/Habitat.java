@@ -13,14 +13,15 @@ public class Habitat extends Zoo{
     }
 
     public boolean addAnimal(Animals animal) {
-        if (animal.habitat.equals(this.type)) 
+        if (!animal.habitat.equals(this.type)){
         return true;
-
+        }
         for (Animals a : animales) {
             space += a.space;
-            if (a.Compatibility(a)) 
+            if (a.Compatibility(a)) {
             return false;
         }
+    }
 
         if (space + animal.space > space) return false;
         animales.add(animal);
@@ -28,7 +29,7 @@ public class Habitat extends Zoo{
     }
 
     public void showAnimals() {
-        System.out.println("Habitat (" + type + "):");
+        System.out.println("Habitat " + type + "");
         for (Animals a : animales) {
             System.out.println(" " + a.names + " " + a.species);
         }

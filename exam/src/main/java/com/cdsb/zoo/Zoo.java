@@ -14,15 +14,15 @@ public static String animals;
         Habitat aquatic = new Habitat("Es acuático", 6);
         Habitat terrarium = new Habitat("Es terrario", 3);           
         
-        Animals lions=new Animals("Leones", "Mamiferos", "Carnivoros", false, "Terrestres", 5);
-       Animals elephants=new Animals("Elefantes","Mamiferos", "Herbivoros", true, "Terrestres", 21);
-         Animals zebras=new Animals("Cebras", "Mamiferos", "Herbivoros", false, "Terrestres", 6);
-        Animals parrots=new Animals("Loros", "Aves", "Herbivoros", true, "Voladores", 8);
-    Animals toucans=new Animals("Tucanes", "Aves", "Herbivoros", true, "Voladores", 8);
-        Animals snakes=new Animals("Serpientes", "Reptiles", "Herbivoros", false, "Terrestres", 8);
-         Animals iguanas=new Animals("Iguanas", "Reptiles", "Herbivoros", false, "Terrestres", 8);
-         Animals dolphins=new Animals("Delfines", "Mamiferos", "Carnivoros", false, "Acuaticos", 7);
-        Animals seals=new Animals("Delfines", "Mamiferos", "Carnivoros", false, "Acuaticos", 7);
+        Animals lions=new Animals("Leones", "Mamiferos", "Carnivoros", "Terrestres",false,  5);
+       Animals elephants=new Animals("Elefantes","Mamiferos", "Herbivoros", "Terrestres", true, 21);
+         Animals zebras=new Animals("Cebras", "Mamiferos", "Herbivoros", "Terrestres", false, 6);
+        Animals parrots=new Animals("Loros", "Aves", "Herbivoros", "Voladores", true, 8);
+    Animals toucans=new Animals("Tucanes", "Aves", "Herbivoros", "Voladores", true, 8);
+        Animals snakes=new Animals("Serpientes", "Reptiles", "Herbivoros", "Terrestres", false, 8);
+         Animals iguanas=new Animals("Iguanas", "Reptiles", "Herbivoros", "Terrestres", false, 8);
+         Animals dolphins=new Animals("Delfines", "Mamiferos", "Carnivoros", "Acuaticos", false, 7);
+        Animals seals=new Animals("Delfines", "Mamiferos", "Carnivoros", "Acuaticos", false, 7);
 
          System.out.println(terrestrial.addAnimal(lions));
          System.out.println(terrestrial.addAnimal(elephants));
