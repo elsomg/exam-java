@@ -3,10 +3,9 @@ package com.cdsb.zoo;
 public class Animals extends Zoo{
    String names;
     String species;
-    String type;         
-    String food;      
-    boolean survive;      
-    String habitat; 
+    String type;
+    String food;
+    boolean survive;
     int space;
 
     public Animals(String names, String species, String food, String type, boolean survive, int space) {
@@ -22,7 +21,7 @@ public class Animals extends Zoo{
     public boolean Compatibility(Animals other) {
         return this.survive && other.survive &&
                this.food.equals(other.food) &&
-               this.habitat.equals(other.habitat);
+               this.type.equals(other.type);
     }
 
     public static int length() {

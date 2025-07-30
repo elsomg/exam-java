@@ -13,8 +13,8 @@ public class Habitat extends Zoo{
     }
 
     public boolean addAnimal(Animals animal) {
-        if (!animal.habitat.equals(this.type)){
-        return true;
+        if (!animal.type.equals(this.type)){
+        return false;
         }
         for (Animals a : animales) {
             space += a.space;
