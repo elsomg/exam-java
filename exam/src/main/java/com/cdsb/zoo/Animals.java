@@ -27,5 +27,10 @@ public class Animals extends Zoo{
     public static int length() {
         throw new UnsupportedOperationException("Unimplemented method 'length'");
     }
+    @Override
+    public String toString() {
+        return names + species +type + food +survive + space;
+
+    }
 }
 
