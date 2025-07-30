@@ -6,14 +6,16 @@ public class Animals extends Zoo{
     String type;
     String food;
     boolean survive;
+    String s;
     int space;
 
-    public Animals(String names, String species, String food, String type, boolean survive, int space) {
+    public Animals(String names, String species, String food, String type, boolean survive, String s, int space) {
         this.names = names;
         this.species = species;
         this.food = food;
         this.type=type;
         this.survive = survive;
+        this.s=s;
         this.space = space;
     }
 
@@ -29,7 +31,7 @@ public class Animals extends Zoo{
     }
     @Override
     public String toString() {
-        return names + species +type + food +survive + space;
+        return names + species +type + food +survive + s + space;
 
     }
 }

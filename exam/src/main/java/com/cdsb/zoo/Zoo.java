@@ -15,15 +15,15 @@ public static String animals;
         Habitat aquatic = new Habitat("Acuaticos", 6);
         Habitat terrarium = new Habitat("Terrarios", 3);
 
-        Animals lions=new Animals("Leones ", "Mamiferos ", "Carnivoros ", "Terrestres ",false,  5);
-       Animals elephants=new Animals("Elefantes ","Mamiferos ", "Herbivoros ", "Terrestres ", true, 21);
-         Animals zebras=new Animals("Cebras ", "Mamiferos ", "Herbivoros ", "Terrestres ", false, 6);
-        Animals parrots=new Animals("Loros ", "Aves ", "Herbivoros ", "Terrarios ", true, 8);
-    Animals toucans=new Animals("Tucanes ", "Aves", "Herbivoros ", "Terrarios", true, 8);
-        Animals snakes=new Animals("Serpientes ", "Reptiles ", "Herbivoros ", "Terrestres ", false, 8);
-         Animals iguanas=new Animals("Iguanas ", "Reptiles ", "Herbivoros ", "Terrestres ", false, 8);
-         Animals dolphins=new Animals("Delfines ", "Mamiferos ", "Carnivoros ", "Acuaticos ", false, 7);
-         Animals seals=new Animals("Delfines ", "Mamiferos ", "Carnivoros ", "Acuaticos ", false, 7);
+        Animals lions=new Animals("Leones ", "Mamiferos ", "Carnivoros ", "Terrestres ", false, " ", 5);
+       Animals elephants=new Animals("Elefantes ","Mamiferos ", "Herbivoros ", "Terrestres ", true, " ", 21);
+         Animals zebras=new Animals("Cebras ", "Mamiferos ", "Herbivoros ", "Terrestres ", false," ", 6);
+        Animals parrots=new Animals("Loros ", "Aves ", "Herbivoros ", "Terrarios ", true," ", 8);
+    Animals toucans=new Animals("Tucanes ", "Aves ", "Herbivoros ", "Terrarios", true," ", 8);
+        Animals snakes=new Animals("Serpientes ", "Reptiles ", "Herbivoros ", "Terrestres ", false," ", 8);
+         Animals iguanas=new Animals("Iguanas ", "Reptiles ", "Herbivoros ", "Terrestres ", false," ", 8);
+         Animals dolphins=new Animals("Delfines ", "Mamiferos ", "Carnivoros ", "Acuaticos ", false," ", 7);
+         Animals seals=new Animals("Delfines ", "Mamiferos ", "Carnivoros ", "Acuaticos ", false," ", 7);
 
 
 
