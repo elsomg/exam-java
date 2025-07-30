@@ -19,20 +19,15 @@ public class Habitat extends Zoo{
         for (Animals a : animales) {
             space += a.space;
             if (a.Compatibility(a)) {
-            return false;
+            return true;
         }
     }
 
-        if (space + animal.space > space) return false;
+        if (space + animal.space > space) return true;
         animales.add(animal);
         return true;
     }
 
-    public void showAnimals() {
-        System.out.println("Habitat " + type + "");
-        for (Animals a : animales) {
-            System.out.println(" " + a.names + " " + a.species);
-        }
-    }
+    
 }
 

@@ -51,9 +51,6 @@ public static String animals;
 
 
 
-    terrestrial.showAnimals();
-    terrarium.showAnimals();
-    aquatic.showAnimals();
 
     }
 
