@@ -28,6 +28,5 @@ public class Habitat extends Zoo{
         return true;
     }
 
-    
-}
 
+}
